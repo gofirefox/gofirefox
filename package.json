@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
+  "name": "gofirefox",
+  "description": "GoFirefox.com",
   "version": "0.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "Satvik Jagannath",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

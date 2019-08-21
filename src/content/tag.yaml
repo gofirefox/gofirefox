@@ -1,3 +1,15 @@
-- id: speeches
-  description: Some of the greatest words ever spoken.
+- id: Conference Talks
+  description: Some of the greatest conference talks.
+  image: img/speeches-cover.jpg
+- id: Firefox
+  description: About firefox and its features.
+  image: img/speeches-cover.jpg
+- id: Products
+  description: About other products of Mozilla.
+  image: img/speeches-cover.jpg
+- id: Opensource
+  description: About Opensource projects of Mozilla.
+  image: img/speeches-cover.jpg
+- id: Web
+  description: HTML5, CSS3, JavaScript and everything that supports it.
   image: img/speeches-cover.jpg

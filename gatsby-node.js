@@ -1,8 +1,14 @@
 const path = require('path');
 const _ = require('lodash');
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
+exports.onCreateNode = ({
+  node,
+  actions,
+  getNode
+}) => {
+  const {
+    createNodeField
+  } = actions;
 
   // Sometimes, optional fields tend to get not picked up by the GraphQL
   // interpreter if not a single content uses it. Therefore, we're putting them
@@ -10,8 +16,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   // trip up. An empty string is still required in replacement to `null`.
   switch (node.internal.type) {
     case 'MarkdownRemark': {
-      const { permalink, layout, primaryTag } = node.frontmatter;
-      const { relativePath } = getNode(node.parent);
+      const {
+        permalink,
+        layout,
+        primaryTag
+      } = node.frontmatter;
+      const {
+        relativePath
+      } = getNode(node.parent);
 
       let slug = permalink;
 
@@ -42,8 +54,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+exports.createPages = async ({
+  graphql,
+  actions
+}) => {
+  const {
+    createPage
+  } = actions;
 
   const result = await graphql(`
     {
@@ -115,7 +132,9 @@ exports.createPages = async ({ graphql, actions }) => {
   const postsPerPage = 6;
   const numPages = Math.ceil(posts.length / postsPerPage);
 
-  Array.from({ length: numPages }).forEach((_, i) => {
+  Array.from({
+    length: numPages
+  }).forEach((_, i) => {
     createPage({
       path: i === 0 ? '/' : `/${i + 1}`,
       component: path.resolve('./src/templates/index.tsx'),
@@ -128,8 +147,13 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  posts.forEach(({ node }, index) => {
-    const { slug, layout } = node.fields;
+  posts.forEach(({
+    node
+  }, index) => {
+    const {
+      slug,
+      layout
+    } = node.fields;
     const prev = index === 0 ? null : posts[index - 1].node;
     const next = index === posts.length - 1 ? null : posts[index + 1].node;
 
@@ -187,7 +211,10 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
+exports.onCreateWebpackConfig = ({
+  stage,
+  actions
+}) => {
   // adds sourcemaps for tsx in dev mode
   if (stage === `develop` || stage === `develop-html`) {
     actions.setWebpackConfig({
