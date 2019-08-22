@@ -1,22 +1,22 @@
 // tslint:disable:no-http-string
-import { Link } from 'gatsby';
-import * as React from 'react';
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
+import { Link } from "gatsby"
+import * as React from "react"
+import styled from "@emotion/styled"
+import { css } from "@emotion/core"
 
-import { SocialLink } from '../../styles/shared';
-import config from '../../website-config';
-import Facebook from '../icons/facebook';
-import Twitter from '../icons/twitter';
-import SubscribeModal from '../subscribe/SubscribeOverlay';
-import SiteNavLogo from './SiteNavLogo';
+import { SocialLink } from "../../styles/shared"
+import config from "../../website-config"
+import Facebook from "../icons/facebook"
+import Twitter from "../icons/twitter"
+import SubscribeModal from "../subscribe/SubscribeOverlay"
+import SiteNavLogo from "./SiteNavLogo"
 
 const HomeNavRaise = css`
   @media (min-width: 900px) {
     position: relative;
     top: -70px;
   }
-`;
+`
 
 const SiteNavStyles = css`
   position: relative;
@@ -27,7 +27,7 @@ const SiteNavStyles = css`
   overflow-y: hidden;
   height: 40px;
   font-size: 1.2rem;
-`;
+`
 
 const SiteNavLeft = styled.div`
   display: flex;
@@ -46,7 +46,7 @@ const SiteNavLeft = styled.div`
     margin-right: 0;
     padding-left: 4vw;
   }
-`;
+`
 
 const NavStyles = css`
   display: flex;
@@ -73,7 +73,7 @@ const NavStyles = css`
     text-decoration: none;
     opacity: 1;
   }
-`;
+`
 
 const SiteNavRight = styled.div`
   flex-shrink: 0;
@@ -84,7 +84,7 @@ const SiteNavRight = styled.div`
   @media (max-width: 700px) {
     display: none;
   }
-`;
+`
 
 const SocialLinks = styled.div`
   flex-shrink: 0;
@@ -93,7 +93,7 @@ const SocialLinks = styled.div`
   a:last-of-type {
     padding-right: 20px;
   }
-`;
+`
 
 const SubscribeButton = styled.a`
   display: block;
@@ -110,23 +110,23 @@ const SubscribeButton = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-`;
+`
 
 interface SiteNavProps {
-  isHome?: boolean;
+  isHome?: boolean
 }
 
 class SiteNav extends React.Component<SiteNavProps> {
-  subscribe = React.createRef<SubscribeModal>();
+  subscribe = React.createRef<SubscribeModal>()
 
   openModal = () => {
     if (this.subscribe.current) {
-      this.subscribe.current.open();
+      this.subscribe.current.open()
     }
-  };
+  }
 
   render() {
-    const { isHome = false } = this.props;
+    const { isHome = false } = this.props
     return (
       <nav css={[isHome && HomeNavRaise, SiteNavStyles]}>
         <SiteNavLeft>
@@ -140,7 +140,7 @@ class SiteNav extends React.Component<SiteNavProps> {
               <Link to="/about">About</Link>
             </li>
             <li role="menuitem">
-              <Link to="/tags/getting-started/">Getting Started</Link>
+              <Link to="/tags/firefox/">Firefox</Link>
             </li>
           </ul>
         </SiteNavLeft>
@@ -170,13 +170,15 @@ class SiteNav extends React.Component<SiteNavProps> {
             )}
           </SocialLinks>
           {config.showSubscribe && (
-            <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
+            <SubscribeButton onClick={this.openModal}>
+              Subscribe
+            </SubscribeButton>
           )}
           {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
         </SiteNavRight>
       </nav>
-    );
+    )
   }
 }
 
-export default SiteNav;
+export default SiteNav
