@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to GoFirefox"
+title: "Hello World"
 author: Satvik Jagannath
 tags: ["Firefox"]
 image: img/welcome-to-ghost.jpg

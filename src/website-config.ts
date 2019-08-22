@@ -55,8 +55,8 @@ const config: WebsiteConfig = {
   logo: "img/ghost-logo.png",
   lang: "en",
   siteUrl: "https://gofirefox.com",
-  facebook: "https://www.facebook.com/gofirefox.com",
-  twitter: "https://twitter.com/gofirefox_com",
+  facebook: "https://www.facebook.com/gofirefox",
+  twitter: "https://twitter.com/go_firefox",
   showSubscribe: true,
   mailchimpAction:
     "https://gmail.us3.list-manage.com/subscribe/post?u=5c3f1731b96bdb9da25dc3bf1&amp;id=2b49a1694e",
