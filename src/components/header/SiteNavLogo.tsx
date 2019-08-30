@@ -7,7 +7,7 @@ import config from "../../website-config"
 const SiteNavLogoStyles = css`
   flex-shrink: 0;
   display: block;
-  margin-right: 24px;
+  margin-right: 42px;
   padding: 11px 0;
   color: #fff;
   font-size: 1.7rem;

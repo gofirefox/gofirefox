@@ -25,7 +25,7 @@ const SiteNavStyles = css`
   justify-content: space-between;
   align-items: flex-start;
   overflow-y: hidden;
-  height: 40px;
+  height: 60px;
   font-size: 1.2rem;
 `
 
