@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top 5 Privacy plugins for Firefox"
+title: "Top 5 Privacy extensions for Firefox"
 author: Satvik Jagannath
 tags: ["Firefox"]
 image: img/firefox-privacy.jpg
@@ -21,13 +21,13 @@ Do you want to check if you have been pawned/hacked? Visit [haveibeenpwned.com](
 - List of Data Breaches - [Wikipedia](https://en.wikipedia.org/wiki/List_of_data_breaches)
 - A CSV document [google sheets](https://docs.google.com/spreadsheets/d/1i0oIJJMRG-7t1GT-mr4smaTTU7988yXVz8nPlwaJ8Xk/edit#gid=2) that contains more details
 
-# Privacy plugins for Firefox-
+# Privacy extensions for Firefox-
 
 Keep your browser from leaking your data with these privacy-focused tools.
 
 1. ## Privacy Badger
 
-   This is considered one of the best plugins both by ratings and reviews. Privacy Badger blocks most of the known online trackers. It intuitively learns behaviour of websites and blocks these online trackers. 
+   This is considered one of the best extensions both by ratings and reviews. Privacy Badger blocks most of the known online trackers. It intuitively learns behaviour of websites and blocks these online trackers. 
 
    There are alternatives like [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/), [DuckDuckGo Privacy Essentials](https://duckduckgo.com/app) etc., but, Privacy Badger has been seen as a good Top.1 contender. Privacy Badger is made by the Electronic Frontier Foundation (EFF), a nonprofit entity with a donation-based business model.
 
