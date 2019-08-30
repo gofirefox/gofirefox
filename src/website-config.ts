@@ -52,7 +52,7 @@ const config: WebsiteConfig = {
   title: "GoFirefox",
   description: "Switch to Firefox, the best browser in the world!",
   coverImage: "img/blog-cover.jpg",
-  logo: "img/ghost-logo.png",
+  logo: "img/go-firefox-logo.png",
   lang: "en",
   siteUrl: "https://gofirefox.com",
   facebook: "https://www.facebook.com/gofirefox",

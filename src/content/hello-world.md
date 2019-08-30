@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 author: Satvik Jagannath
 tags: ["Firefox"]
-image: img/welcome-to-ghost.jpg
+image: img/go-firefox-logo.png
 date: "2019-08-21T23:46:37.121Z"
 draft: false
 ---
