@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Top 5 Privacy extensions for Firefox"
+title: "Download Firefox 70"
 author: Satvik Jagannath
-tags: ["Firefox"]
+tags: ["Releases","Firefox"]
 image: img/firefox-image-2.jpeg
 date: "2019-09-13T23:50:00.001Z"
 draft: false
