@@ -13,3 +13,6 @@
 - id: Web
   description: HTML5, CSS3, JavaScript and everything that supports it.
   image: img/blog-cover.jpg
+- id: Releases
+  description: About new features in Firefox releases.
+  image: img/blog-cover.jpg
