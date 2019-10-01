@@ -142,6 +142,9 @@ class SiteNav extends React.Component<SiteNavProps> {
             <li role="menuitem">
               <Link to="/tags/firefox/">Firefox</Link>
             </li>
+            <li role="menuitem">
+              <Link to="/tags/firefox/">Web</Link>
+            </li>
           </ul>
         </SiteNavLeft>
         <SiteNavRight>
