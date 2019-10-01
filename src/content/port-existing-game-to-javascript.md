@@ -13,8 +13,8 @@ If you are a native game developer using a game engine or otherwise and if you a
 
 To get started, see:
 
-[About Emscripten](http://kripken.github.io/emscripten-site/docs/introducing_emscripten/about_emscripten.html) for an introduction including high-level details.
-[Download and Install](http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html) for installing the toolchain.
-[Emscripten Tutorial](http://kripken.github.io/emscripten-site/docs/getting_started/Tutorial.html) for a tutorial to teach you how to get started.
+- [About Emscripten](http://kripken.github.io/emscripten-site/docs/introducing_emscripten/about_emscripten.html) for an introduction including high-level details.
+- [Download and Install](http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html) for installing the toolchain.
+- [Emscripten Tutorial](http://kripken.github.io/emscripten-site/docs/getting_started/Tutorial.html) for a tutorial to teach you how to get started.
 
 The above article details were mainly fetched from [Mozilla Games](https://developer.mozilla.org/en-US/docs/Games) page. More information about Web Games will be published in the upcoming articles.
