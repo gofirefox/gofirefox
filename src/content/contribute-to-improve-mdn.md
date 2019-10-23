@@ -4,7 +4,7 @@ title: "Contribute to Improve MDN - Mozilla Developer Network"
 author: Satvik Jagannath
 tags: ["Releases","Firefox"]
 image: img/firefox-image-1.jpeg
-date: "2019-09-13T23:50:00.001Z"
+date: "2019-10-23T17:30:00.001Z"
 draft: false
 ---
 
