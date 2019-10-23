@@ -2,7 +2,7 @@
 layout: post
 title: "Contribute to Improve MDN - Mozilla Developer Network"
 author: Satvik Jagannath
-tags: ["Releases","Firefox"]
+tags: ["Opensource","Firefox"]
 image: img/firefox-image-1.jpeg
 date: "2019-10-23T17:30:00.001Z"
 draft: false
