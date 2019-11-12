@@ -8,7 +8,9 @@ date: "2019-11-08T12:00:00.001Z"
 draft: false
 ---
 
-Top Tweets/Celebrations-
+Firefox has been the real revolution of the Web. Firefox and its technology JavaScript has completely changed the landscape of the web forever! Thanks to Brendan Eich for his contributions to Firefox and JavaScript. His vision has helped Mozilla become what it is!
+
+## Top Tweets/Celebrations-
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The only glow up that matters. 🎂 <a href="https://t.co/19e4AXkXfS">pic.twitter.com/19e4AXkXfS</a></p>&mdash; Firefox 🔥 (@firefox) <a href="https://twitter.com/firefox/status/1193121052609658881?ref_src=twsrc%5Etfw">November 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
